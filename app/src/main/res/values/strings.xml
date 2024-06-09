@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Beltariq</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="login">Login</string>
+    <string name="email" />
+    <string name="password" />
+    <string name="register">Register</string>
+    <string name="switch_to_login">Switch to login</string>
+    <string name="switch_to_register">Switch to register</string>
+    <string name="confirm">Confirm</string>
+    <string name="title_search">Search</string>
+    <string name="emailtxt">Email:</string>
+    <string name="passwordtxt">Password:</string>
+    <string name="full_name">Full Name:</string>
+    <string name="reglocation">Location:</string>
+    <string name="phone_number">Phone Number:</string>
+    <string name="business_account">Business Account</string>
+    <string name="driver_account">Driver Account</string>
+    <string name="customer_account">Customer Account</string>
+    <string name="business_login">Business Login</string>
+    <string name="brand_name">Brand Name:</string>
+    <string name="register_business">Register Business</string>
+    <string name="driver_login">Driver Login</string>
+    <string name="home">Home</string>
+    <string name="account">Account</string>
+    <string name="checkout">Checkout</string>
+    <string name="search">Search</string>
+    <string name="log_out">LOG OUT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="this_is_the_home_page_for_the_driver">this is the home page for the driver</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="orders">Orders</string>
+    <string name="store">Store</string>
+    <string name="add">Add</string>
+    <string name="category">Category:</string>
+    <string name="product_image">Product Image</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_price">Product Price</string>
+    <string name="description">Description</string>
+    <string name="save">Save</string>
+    <string name="brand_image">brand image</string>
+    <string name="add_product">add product</string>
+    <string name="delete">delete</string>
+    <string name="select_image">Select Image</string>
+    <string name="edit">Edit</string>
+    <string name="close">Close</string>
+    <string name="product_description">Product Description</string>
+    <string-array name="spinner_options">
+        <item>Abaya</item>
+        <item>Dress</item>
+        <item>Top</item>
+        <item>Pants</item>
+        <item>Skirt</item>
+        <item>Shoes</item>
+        <item>Bags</item>
+        <item>Accessories</item>
+    </string-array>
+</resources>

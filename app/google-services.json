@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "556644239239",
+    "project_id": "beltariqproject",
+    "storage_bucket": "beltariqproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556644239239:android:2da6578d5cefaf74483522",
+        "android_client_info": {
+          "package_name": "com.example.beltariq"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhcqtMgJMuN06iXPTmgmuZAZa--yAqCIQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

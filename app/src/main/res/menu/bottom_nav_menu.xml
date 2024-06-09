@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_brown"
+    android:paddingTop="?attr/actionBarSize">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/windowBackground"
+        android:icon="@drawable/homeimg"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/navigation_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/windowBackground"
+        android:icon="@drawable/searchimg"
+        android:title="@string/search" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/windowBackground"
+        android:icon="@drawable/cart"
+        android:title="@string/checkout"
+        />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/windowBackground"
+        android:icon="@drawable/accountimg"
+        android:title="@string/account"
+        />
+
+</menu>

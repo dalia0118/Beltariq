@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+<uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:enableOnBackInvokedCallback="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:name=".Beltariq"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Beltariq"
+        tools:targetApi="31">
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/Theme.Beltariq"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/Theme.Beltariq"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".BLoginActivity"
+            android:theme="@style/Theme.Beltariq"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".BRegisterActivity"
+            android:theme="@style/Theme.Beltariq"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".DLoginActivity"
+            android:theme="@style/Theme.Beltariq"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.Beltariq"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".BMainActivity"
+            android:theme="@style/Theme.Beltariq"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".DMainActivity"
+            android:theme="@style/Theme.Beltariq"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".AddProductDialogFragment"
+            android:theme="@style/Theme.Beltariq"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".BrandFragment"
+            android:theme="@style/Theme.Beltariq"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".Beltariq"
+            android:theme="@style/Theme.Beltariq"
+            android:exported="false">
+        </activity>
+    </application>
+
+</manifest>
